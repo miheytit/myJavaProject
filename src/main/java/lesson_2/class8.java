@@ -1,25 +1,25 @@
 package lesson_2;
 
+import java.util.Arrays;
+
 public class class8 {
     public static void main(String[] args) {
-                diag();
+        diag(6, 6);
     }
-        public static void diag() {
-        int[][] A = new int[4][4];
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
+
+    public static void diag(int a, int b) {
+        int[][] A = new int[a][b];
+        for (int i = 0; i < a; i++) {
+            for (int j = 0; j < b; j++) {
                 if (i == j) {
                     A[i][j] = 1;
-                }
-                else if (i == 3 - j) {
+                } else if (i == (a - 1) - j) {
                     A[i][j] = 1;
-                }
-                else {
+                } else {
                     A[i][j] = 0;
                 }
-                System.out.print(A[i][j] + " ");
             }
-            System.out.println();
+            System.out.println(Arrays.toString(A[i]));
         }
     }
 }
