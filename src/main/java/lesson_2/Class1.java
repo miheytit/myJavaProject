@@ -1,6 +1,6 @@
 package lesson_2;
 
-public class class1 {
+public class Class1 {
     public static void main(String[] args){
         suma(10,5);}
     public static boolean suma(int a, int b) {

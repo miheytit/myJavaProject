@@ -1,6 +1,6 @@
 package lesson_2;
 
-public class class2 {
+public class Class2 {
     public static void main(String[] args){
         chislo (0);
     }

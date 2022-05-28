@@ -2,7 +2,7 @@ package lesson_2;
 
 import java.util.Arrays;
 
-public class Class8 {
+public class Сlass8 {
     public static void main(String[] args) {
         diag(6, 6);
     }

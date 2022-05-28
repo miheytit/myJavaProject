@@ -1,6 +1,6 @@
 package lesson_2;
 
-public class class4 {
+public class Class4 {
            public static void main(String[] args) {
             hello("Homework", 3);
         }

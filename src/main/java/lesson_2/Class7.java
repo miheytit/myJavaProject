@@ -1,6 +1,6 @@
 package lesson_2;
 
-public class class7{
+public class Class7 {
         public static void main(String[] args) {
             massiv();
         }
