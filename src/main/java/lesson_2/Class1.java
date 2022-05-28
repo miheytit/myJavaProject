@@ -1,14 +1,11 @@
 package lesson_2;
 
 public class Class1 {
-    public static void main(String[] args){
-        suma(10,5);}
-    public static boolean suma(int a, int b) {
-        int summ = a + b;
-        if (summ >= 10 && summ <= 20) {
-            return true;
-        } else {
-            return false;
-        }
+    public static void main(String[] args) {
+        sum(10, 5);
+    }
+
+    public static boolean sum(int a, int b) {
+        return a + b >= 10 && a + b <= 20;
     }
 }
